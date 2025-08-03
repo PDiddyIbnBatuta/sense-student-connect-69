@@ -6,10 +6,10 @@ export function AboutSection() {
       <div className="max-w-4xl mx-auto">
         <Card className="shadow-elegant border-border/50 hover:shadow-glow transition-all duration-500 transform hover:-translate-y-2 animate-fade-in">
           <CardContent className="p-8 sm:p-12">
-            <h2 className="text-xs font-bold text-primary mb-8 animate-slide-up opacity-70">
+            <h2 className="text-base font-bold text-primary mb-8 animate-slide-up opacity-70">
               Who we are :
             </h2>
-            <div className="space-y-6 text-xs leading-relaxed text-foreground animate-slide-up opacity-70">
+            <div className="space-y-6 text-base leading-relaxed text-foreground animate-slide-up opacity-70">
               <p className="opacity-0 animate-fade-in" style={{ animationDelay: '0.2s' }}>
                 We are <span className="font-semibold text-primary hover:text-primary-glow transition-colors duration-200">Sense.</span> - we are together building Mumbai's largest student led community - an initiative by large profit seeking companies college students for college students.
               </p>

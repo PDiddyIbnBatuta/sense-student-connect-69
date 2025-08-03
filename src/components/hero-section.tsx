@@ -6,16 +6,16 @@ export function HeroSection() {
       <div className="max-w-4xl mx-auto text-center space-y-8">
         {/* Main hero text */}
         <div className="space-y-6 animate-fade-in">
-          <h1 className="text-xs font-medium leading-relaxed text-foreground opacity-70">
+          <h1 className="text-base font-medium leading-relaxed text-foreground opacity-70">
             Clear the fuss of college life...
           </h1>
-          <p className="text-xs text-muted-foreground opacity-70">
+          <p className="text-base text-muted-foreground opacity-70">
             Stop listening to countless videos on youtube..you just need real people like you..
           </p>
-          <p className="text-xs font-semibold text-foreground opacity-70">
+          <p className="text-base font-semibold text-foreground opacity-70">
             Join Sense.
           </p>
-          <p className="text-xs text-muted-foreground opacity-70">
+          <p className="text-base text-muted-foreground opacity-70">
             Follow the revolution with 30000 other students who have also joined the revolution
           </p>
         </div>
@@ -29,13 +29,13 @@ export function HeroSection() {
 
         {/* Secondary message */}
         <div className="space-y-6 max-w-3xl mx-auto animate-slide-up">
-          <h3 className="text-xs font-medium text-foreground opacity-70">
+          <h3 className="text-base font-medium text-foreground opacity-70">
             Doing/Want to do CFA? CA? Confused? Too many videos - still no guidance???
           </h3>
-          <p className="text-xs text-muted-foreground opacity-70">
+          <p className="text-base text-muted-foreground opacity-70">
             Be a part of a community lead by people just like you..
           </p>
-          <p className="text-xs font-semibold text-foreground opacity-70">
+          <p className="text-base font-semibold text-foreground opacity-70">
             Join Sense.
           </p>
         </div>
@@ -44,7 +44,7 @@ export function HeroSection() {
         <div className="pt-8 animate-slide-up">
           <Button 
             size="lg" 
-            className="text-xs px-8 py-4 bg-gradient-primary hover:shadow-glow hover:scale-105 transition-all duration-300 transform opacity-70"
+            className="text-base px-8 py-4 bg-gradient-primary hover:shadow-glow hover:scale-105 transition-all duration-300 transform opacity-70"
           >
             Join the Community
           </Button>
