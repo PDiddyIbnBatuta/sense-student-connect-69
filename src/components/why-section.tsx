@@ -91,7 +91,7 @@ export function WhySection() {
           <div className="mt-12 p-8 bg-gradient-primary rounded-2xl text-white max-w-4xl mx-auto">
             <div className="text-4xl mb-4">🎯</div>
             <p className="text-xl sm:text-2xl font-bold mb-4">
-              At Sense, we talk about the stuff{" "}
+              At Sense., we talk about the stuff{" "}
               <span className="underline decoration-white/50">colleges skip</span>. 💯
             </p>
             <p className="text-lg opacity-90 mb-4">

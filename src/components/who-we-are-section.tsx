@@ -37,7 +37,7 @@ export function WhoWeAreSection() {
               <div className="text-5xl animate-pulse">😤</div>
               
               <p className="text-2xl font-bold text-primary">
-                That's why we created Sense!
+                That's why we created Sense.!
               </p>
             </CardContent>
           </Card>

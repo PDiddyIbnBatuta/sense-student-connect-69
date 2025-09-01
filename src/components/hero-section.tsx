@@ -9,7 +9,7 @@ export function HeroSection() {
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground leading-relaxed">
             Welcome to{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Sense
+              Sense.
             </span>
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
@@ -21,7 +21,7 @@ export function HeroSection() {
         {/* Large Sense branding */}
         <div className="py-16 animate-scale-in">
           <h2 className="text-6xl sm:text-8xl lg:text-9xl font-bold bg-gradient-primary bg-clip-text text-transparent tracking-tight animate-float">
-            Sense
+            Sense.
           </h2>
         </div>
 
@@ -48,12 +48,18 @@ export function HeroSection() {
 
         {/* CTA Button */}
         <div className="pt-8 animate-slide-up">
-          <Button 
-            size="lg" 
-            className="text-lg px-12 py-6 bg-gradient-primary hover:shadow-glow hover:scale-105 transition-all duration-300 transform font-medium"
+          <a 
+            href="https://linktr.ee/sense.mumbai"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Join the Community
-          </Button>
+            <Button 
+              size="lg" 
+              className="text-lg px-12 py-6 bg-gradient-primary hover:shadow-glow hover:scale-105 transition-all duration-300 transform font-medium"
+            >
+              Join the Community
+            </Button>
+          </a>
         </div>
       </div>
     </section>

@@ -62,25 +62,33 @@ export function AudienceSection() {
               This is your sign to follow us!
             </h3>
             <p className="text-lg mb-8 opacity-90">
-              We're just getting started, and Sense only grows stronger with{" "}
+              We're just getting started, and Sense. only grows stronger with{" "}
               <span className="font-bold text-white underline decoration-white/50">YOU</span>.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
-                variant="secondary"
-                className="text-lg px-8 py-4 bg-white text-primary hover:bg-white/90 font-medium"
+              <a 
+                href="https://linktr.ee/sense.mumbai"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Join Our Community
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="text-lg px-8 py-4 border-white text-white hover:bg-white/10 font-medium"
-              >
-                Learn More
-              </Button>
+                <Button 
+                  size="lg" 
+                  variant="secondary"
+                  className="text-lg px-8 py-4 bg-white text-primary hover:bg-white/90 font-medium w-full sm:w-auto"
+                >
+                  Join Our Community
+                </Button>
+              </a>
+              <a href="/about">
+                <Button 
+                  size="lg" 
+                  variant="outline"
+                  className="text-lg px-8 py-4 border-white text-white hover:bg-white/10 font-medium w-full sm:w-auto"
+                >
+                  Learn More
+                </Button>
+              </a>
             </div>
           </div>
         </div>
