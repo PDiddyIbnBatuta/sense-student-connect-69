@@ -3,20 +3,18 @@ import { Button } from "@/components/ui/button"
 export function HeroSection() {
   return (
     <section className="relative min-h-screen bg-gradient-hero flex items-center justify-center px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto text-center space-y-8">
-        {/* Main hero text */}
-        <div className="space-y-6 animate-fade-in">
-          <h1 className="text-base font-medium leading-relaxed text-foreground opacity-70">
-            Clear the fuss of college life...
+      <div className="max-w-5xl mx-auto text-center space-y-12">
+        {/* Welcome Header */}
+        <div className="space-y-8 animate-fade-in">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground leading-relaxed">
+            Welcome to{" "}
+            <span className="bg-gradient-primary bg-clip-text text-transparent">
+              Sense
+            </span>
           </h1>
-          <p className="text-base text-muted-foreground opacity-70">
-            Stop listening to countless videos on youtube..you just need real people like you..
-          </p>
-          <p className="text-base font-semibold text-foreground opacity-70">
-            Join Sense.
-          </p>
-          <p className="text-base text-muted-foreground opacity-70">
-            Follow the revolution with 30000 other students who have also joined the revolution
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            We are together connecting colleges across Mumbai which is an initiative{" "}
+            <span className="font-semibold text-foreground">by students, for students</span>.
           </p>
         </div>
 
@@ -27,24 +25,32 @@ export function HeroSection() {
           </h2>
         </div>
 
-        {/* Secondary message */}
-        <div className="space-y-6 max-w-3xl mx-auto animate-slide-up">
-          <h3 className="text-base font-medium text-foreground opacity-70">
-            Doing/Want to do CFA? CA? Confused? Too many videos - still no guidance???
+        {/* Mission Statement */}
+        <div className="space-y-8 max-w-4xl mx-auto animate-slide-up">
+          <h3 className="text-xl sm:text-2xl font-bold text-foreground">
+            A friendly and welcoming space where you can
           </h3>
-          <p className="text-base text-muted-foreground opacity-70">
-            Be a part of a community lead by people just like you..
-          </p>
-          <p className="text-base font-semibold text-foreground opacity-70">
-            Join Sense.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base sm:text-lg text-muted-foreground">
+            <div className="space-y-2">
+              <span className="font-medium text-primary">✨</span> Share your career journeys
+            </div>
+            <div className="space-y-2">
+              <span className="font-medium text-primary">💬</span> Chat about professional exams
+            </div>
+            <div className="space-y-2">
+              <span className="font-medium text-primary">🚀</span> Discover exciting opportunities
+            </div>
+            <div className="space-y-2">
+              <span className="font-medium text-primary">🤝</span> Tackle college challenges together
+            </div>
+          </div>
         </div>
 
         {/* CTA Button */}
         <div className="pt-8 animate-slide-up">
           <Button 
             size="lg" 
-            className="text-base px-8 py-4 bg-gradient-primary hover:shadow-glow hover:scale-105 transition-all duration-300 transform opacity-70"
+            className="text-lg px-12 py-6 bg-gradient-primary hover:shadow-glow hover:scale-105 transition-all duration-300 transform font-medium"
           >
             Join the Community
           </Button>
