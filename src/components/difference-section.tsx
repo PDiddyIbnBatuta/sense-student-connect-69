@@ -10,12 +10,16 @@ export function DifferenceSection() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center space-y-8 mb-16 animate-fade-in">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground">
             What makes us{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               different?
             </span>
           </h2>
+          <div className="text-5xl animate-pulse">🤔💭</div>
+          <p className="text-xl text-muted-foreground italic">
+            Spoiler alert: We're not like other communities 💅
+          </p>
         </div>
 
         {/* Expectations vs Reality */}
@@ -32,9 +36,13 @@ export function DifferenceSection() {
             ))}
             
             <div className="text-center py-8">
+              <div className="text-4xl mb-4">🤷‍♀️</div>
               <p className="text-2xl font-bold text-destructive">
                 Yet no one tells you{" "}
                 <span className="underline decoration-destructive/50">how</span>.
+              </p>
+              <p className="text-lg text-muted-foreground mt-2 italic">
+                It's giving "good luck figuring it out yourself" energy 😮‍💨
               </p>
             </div>
           </div>
@@ -42,8 +50,9 @@ export function DifferenceSection() {
           {/* Right: Our Solution */}
           <div className="space-y-8 animate-scale-in">
             <div className="p-8 bg-gradient-primary rounded-2xl text-white">
+              <div className="text-4xl mb-4">✨</div>
               <h3 className="text-2xl font-bold mb-6">
-                That's why we're building a student powered network
+                That's why we're building a student powered network 🚀
               </h3>
               
               <div className="space-y-4">
@@ -62,8 +71,11 @@ export function DifferenceSection() {
               </div>
               
               <div className="mt-8 p-4 bg-white/10 rounded-lg backdrop-blur-sm">
-                <p className="text-lg font-medium">
+                <p className="text-lg font-medium mb-2">
                   So every student gets the answers they've been looking for.
+                </p>
+                <p className="text-base opacity-90">
+                  No more "this exam will change your life" without the how-to guide! 📖✨
                 </p>
               </div>
             </div>

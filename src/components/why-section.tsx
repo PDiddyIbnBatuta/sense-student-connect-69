@@ -36,18 +36,23 @@ export function WhySection() {
   ]
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-secondary/20">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-secondary/20 to-background">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center space-y-6 mb-16 animate-fade-in">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
+        <div className="text-center space-y-8 mb-16 animate-fade-in">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground">
             Why we{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               started?
             </span>
           </h2>
+          <div className="flex justify-center space-x-4 text-5xl">
+            <span className="animate-bounce">😩</span>
+            <span className="animate-bounce delay-100">😤</span>
+            <span className="animate-bounce delay-200">🔥</span>
+          </div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Being a student today can be overwhelming:
+            Being a student today hits different - and not in a good way:
           </p>
         </div>
 
@@ -84,12 +89,16 @@ export function WhySection() {
           </div>
           
           <div className="mt-12 p-8 bg-gradient-primary rounded-2xl text-white max-w-4xl mx-auto">
+            <div className="text-4xl mb-4">🎯</div>
             <p className="text-xl sm:text-2xl font-bold mb-4">
               At Sense, we talk about the stuff{" "}
-              <span className="underline decoration-white/50">colleges skip</span>.
+              <span className="underline decoration-white/50">colleges skip</span>. 💯
             </p>
-            <p className="text-lg opacity-90">
+            <p className="text-lg opacity-90 mb-4">
               We believe that when students lend a helping hand to each other, everyone comes out ahead!
+            </p>
+            <p className="text-lg font-bold">
+              It's giving community vibes! ✨🤝
             </p>
           </div>
         </div>

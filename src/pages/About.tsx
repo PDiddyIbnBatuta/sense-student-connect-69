@@ -1,12 +1,16 @@
 import { Header } from "@/components/header";
-import { AboutSection } from "@/components/about-section";
+import { WhoWeAreSection } from "@/components/who-we-are-section";
+import { WhySection } from "@/components/why-section";
+import { DifferenceSection } from "@/components/difference-section";
 
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <main className="pt-16">
-        <AboutSection />
+        <WhoWeAreSection />
+        <WhySection />
+        <DifferenceSection />
       </main>
     </div>
   );
