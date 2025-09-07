@@ -83,8 +83,8 @@ export function AudienceSection() {
               <a href="/about">
                 <Button 
                   size="lg" 
-                  variant="outline"
-                  className="text-lg px-8 py-4 border-white text-white hover:bg-white/10 font-medium w-full sm:w-auto"
+                  variant="secondary"
+                  className="text-lg px-8 py-4 bg-white/20 text-white hover:bg-white/30 border border-white/30 hover:border-white/50 font-medium w-full sm:w-auto transition-all duration-200"
                 >
                   Learn More
                 </Button>
