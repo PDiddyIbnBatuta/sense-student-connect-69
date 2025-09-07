@@ -2,9 +2,9 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Header() {
   return (
-    <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-sm border-b border-border/50 transition-all duration-300">
+    <header className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-md border-b border-border/50 transition-all duration-300 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-14 sm:h-16">
           <a href="/" className="font-bold text-2xl text-primary hover:text-primary-glow hover:scale-105 transition-all duration-300 transform">
             Sense.
           </a>
